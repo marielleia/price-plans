@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/detail.css';
+import '../../styles/detail.css';
 
 export default function Detail() {
     return (

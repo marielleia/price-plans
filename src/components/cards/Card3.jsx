@@ -3,9 +3,9 @@ import Image from '../reusables/Image';
 import Price from '../reusables/Price';
 import Detail from '../reusables/Detail';
 import Button from '../reusables/Button';
-import '../../style/card.css';
-import '../../style/button.css';
-import people from '../assets/images/people.svg';
+import '../../styles/card.css';
+import '../../styles/button.css';
+import people from '../assets/icons/people.svg';
 
 export default function Card3() {
     return (

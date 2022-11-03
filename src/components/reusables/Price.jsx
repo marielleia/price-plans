@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/price.css';
+import '../../styles/price.css';
 
 export default function Price({ type, price }) {
   return (
