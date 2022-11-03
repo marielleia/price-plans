@@ -1,0 +1,16 @@
+.button1 {
+    background-color: white;
+    color: black;
+    border-color: #6612d3;
+}
+
+.button2 {
+    background-color: #6612d3;
+    color: white;
+}
+
+.button3 {
+    background-color: black;
+    color: white;
+    border-color: white;
+}

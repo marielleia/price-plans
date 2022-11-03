@@ -15,6 +15,7 @@ export default function Card3() {
             <Price type={"Teams"} price={"$99"} />
             <Detail />
             <Button
+                styles={{ backgroundColor: '#6612d3', color: 'white' }}
                 className='button3'
                 buttonText={'Get Teams'} />
         </div>

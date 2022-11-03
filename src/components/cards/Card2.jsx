@@ -16,7 +16,7 @@ export default function Card2() {
       <Detail />
       <Button
         className='button2'
-        style={{ backgroundColor: '#6612d3', color: 'white', borderColor: 'white' }}
+        style={{ backgroundColor: 'black', color: 'white'}}
         buttonText={"Become a Pro"} />
     </div>
   )
