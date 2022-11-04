@@ -4,11 +4,11 @@ Participación en el Hackaton online de Jump2Digital, organizado por Barcelona D
 
 ## Sobre el desafio
 
-### Plan de precios
+#### Plan de precios
 
 Diseño front-end de price-cards modulares utilizando React.js y CSS3.
 
-### Objetivos y Historias de usuario
+#### Objetivos y Historias de usuario
 
 1. Puedo ver el diseño propuesto en PC
 2. Puedo ver el diseño propuesto en el móvil
@@ -47,4 +47,4 @@ npm start
 
 ## Contact info
 
-> marielle.ibias@gmail.com || Marielle Ibias
+> marielle.ibias@gmail.com || [Marielle Ibias](https://github.com/marielleia)
