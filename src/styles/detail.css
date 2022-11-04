@@ -18,3 +18,13 @@ ul li:before {
     content: "✓";
     margin-right: 12px;
 }
+
+#card1 .d4,
+#card1 .d5,
+#card1 .d6,
+#card1 .d7,
+#card2 .d6,
+#card2 .d7  {
+    opacity: 0.6;
+}
+

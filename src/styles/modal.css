@@ -1,0 +1,115 @@
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.7);
+    z-index: 1;
+}
+
+.modal-content {
+    max-width: 500px;
+    max-height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    padding: 28px 30px;
+}
+
+.modal-content,
+.close-modal {
+    background: #222;
+    border: 2px solid;
+    border-radius: 8px;
+    z-index: 9;
+    gap: 10px;
+}
+
+/* email input */
+.email-box input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.email-box label {
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.email-box input:focus ~ label,
+.email-box input:valid ~ label {
+    top: -85px;
+    left: 0;
+    padding: 10px 0;
+    color: #8f7cec;
+    font-size: 12px;
+}
+.modal h2 {
+    color: #6612d3;
+}
+
+/* botón cerrar modal */
+.close-modal {
+    position: absolute;
+    width: 40px;
+    top: 14px;
+    right: 24px;
+    padding: 5px 7px;
+    border-radius: 6px;
+    font-size: x-large;
+    color: #fff;
+}
+
+/* Botón de enviar */
+.submit {
+    color: #6612d3;
+    border: 1px solid #8f7cec;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+/* Animación boton de enviar y cerrar modal */
+.submit:hover,
+.close-modal:hover {
+    background-color: #8f7cec;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #8f7cec;
+}

@@ -9,14 +9,12 @@ import mindful from '../assets/icons/mindful.svg';
 
 export default function Card1() {
   return (
-    <div className='card'
+    <div className='card' id='card1'
       style={{ backgroundColor: 'white', color: 'black' }}>
       <Image imageUrl={mindful} />
       <Price type={"Starter"} price={"Free"} />
       <Detail />
       <Button
-        className='button1'
-        style={{ backgroundColor: 'white', color: 'black', borderColor: '#6612d3' }}
         buttonText={"Get Started"} />
     </div>
   )

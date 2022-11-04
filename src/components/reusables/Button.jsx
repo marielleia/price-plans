@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/button.css';
+import Modal from './Modal';
 
-export default function Button({ buttonText }) {
+export default function Button({ style, buttonText }) {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
-    <button
-      className='button'
-      style={{
-        width: '300px', height: '50px', borderRadius: '8px', fontSize: 'medium', fontWeight: 'bolder'
-      }}>
-      {buttonText}
-    </button>
+    <>
+      <button
+        className='button'
+        onClick={() => {
+          setModalOpen(true);
+        }}
+      >
+        {buttonText}
+      </button>
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
+    </>
   )
-}
+};

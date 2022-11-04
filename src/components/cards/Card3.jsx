@@ -8,16 +8,16 @@ import '../../styles/button.css';
 import people from '../assets/icons/people.svg';
 
 export default function Card3() {
+
     return (
-        <div className='card'
+        <div className='card' id='card3'
             style={{ backgroundColor: 'white', color: 'black', borderColor: 'black' }}>
             <Image imageUrl={people} />
             <Price type={"Teams"} price={"$99"} />
             <Detail />
             <Button
-                styles={{ backgroundColor: '#6612d3', color: 'white' }}
-                className='button3'
-                buttonText={'Get Teams'} />
+                buttonText={'Get Teams'}
+            />
         </div>
     )
 }
