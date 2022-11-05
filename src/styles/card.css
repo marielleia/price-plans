@@ -1,7 +1,7 @@
 .card {
     width: 360px;
-    min-height: 85vh;
-    max-height: 90vh;
+    min-height: 90vh;
+    max-height: 95vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
