@@ -25,6 +25,10 @@ Diseño front-end de price-cards modulares utilizando React.js y CSS3.
 - [React.js](https://es.reactjs.org/)
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
 
+## Calidad de código
+
+[![CodeFactor](https://www.codefactor.io/repository/github/marielleia/price-plans/badge)](https://www.codefactor.io/repository/github/marielleia/price-plans)
+
 ## Instalación
 
 Se recomienda tener instalado Visual Studio Code u otro editor de código.
