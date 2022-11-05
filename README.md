@@ -16,7 +16,7 @@ Diseño front-end de price-cards modulares utilizando React.js y CSS3.
 
 ## Demo
 
-👉
+👉 https://marielleia.github.io/price-plans/
 
 ## Stack
 
