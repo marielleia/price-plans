@@ -1,6 +1,6 @@
 # HACKATON JUMP2DIGITAL 2022: FRONTEND
 
-Participación en el Hackaton online de Jump2Digital, organizado por Barcelona Digital Talent.
+Participación en el Hackaton online de [Jump2Digital](https://barcelonadigitaltalent.com/jump2digital/), organizado por [Barcelona Digital Talent](https://barcelonadigitaltalent.com/).
 
 ## Sobre el desafio
 
