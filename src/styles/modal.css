@@ -18,6 +18,7 @@
 }
 
 .modal-content {
+    min-width: 280px;
     max-width: 500px;
     max-height: 500px;
     color: #fff;

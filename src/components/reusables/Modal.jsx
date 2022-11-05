@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../styles/modal.css';
 
-export default function Modal({ setOpenModal }) {
+export default function Modal({ setOpenModal}) {
 
   const [value, setValue] = useState("");
 
@@ -9,7 +9,7 @@ export default function Modal({ setOpenModal }) {
     setValue(e.target.value);
   };
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
     alert("Email sent. We will get in touch with you shortly!");
   }
