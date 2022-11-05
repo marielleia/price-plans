@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/detail.css';
 
-export default function Detail({disable}) {
+export default function Detail() {
     return (
         <div className='detail'>
             <ul>

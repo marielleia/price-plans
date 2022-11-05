@@ -13,7 +13,7 @@ export default function Card3() {
         <div className='card' id='card3'
             style={{ backgroundColor: 'white', color: 'black', borderColor: 'black' }}>
             <Image imageUrl={people} />
-            <Price type={"Teams"} price={"$99"} />
+            <Price type={'Teams'} price={'$99'} />
             <Detail />
             <Button
                 buttonText={'Get Teams'}

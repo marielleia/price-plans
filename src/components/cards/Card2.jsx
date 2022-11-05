@@ -10,12 +10,12 @@ import two from '../assets/icons/two.svg';
 export default function Card2() {
   return (
     <div className='card' id='card2'
-      style={{ backgroundColor: "rgb(102, 18, 211)", color: "white" }}>
+      style={{ backgroundColor: 'rgb(102, 18, 211)', color: 'white' }}>
       <Image imageUrl={two} />
-      <Price type={"Pro"} price={"$49"} />
+      <Price type={'Pro'} price={'$49'} />
       <Detail />
       <Button
-        buttonText={"Become a Pro"} />
+        buttonText={'Become a Pro'} />
     </div>
   )
 }

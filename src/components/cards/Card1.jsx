@@ -12,10 +12,10 @@ export default function Card1() {
     <div className='card' id='card1'
       style={{ backgroundColor: 'white', color: 'black' }}>
       <Image imageUrl={mindful} />
-      <Price type={"Starter"} price={"Free"} />
+      <Price type={'Starter'} price={'Free'} />
       <Detail />
       <Button
-        buttonText={"Get Started"} />
+        buttonText={'Get Started'} />
     </div>
   )
 }
