@@ -1,12 +1,12 @@
 .card {
-    width: 370px;
-    max-height: 750px;
+    width: 360px;
+    max-height: 90vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.8);
     transition: all 0.2s;
     padding: 20px 10px;
     margin: 5%;
