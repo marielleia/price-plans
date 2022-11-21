@@ -50,6 +50,12 @@ Vizualizamos el proyecto en "client" y lo ejecutaremos con:
 npm start
 ```
 
+## Resultados
+
+Haz click [aquí](https://nuwe.io/dev/report/63665ebe8f8a45ad87d6cd87) para el report completo.
+
+<img src="/public/jump-results.JPG"  width= 500px/>
+
 ## Contact info
 
 > marielle.ibias@gmail.com || [Marielle Ibias](https://github.com/marielleia)
