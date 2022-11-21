@@ -12,7 +12,7 @@ Diseño front-end de price-cards modulares utilizando React.js y CSS3.
 
 1. Puedo ver el diseño propuesto en PC
 2. Puedo ver el diseño propuesto en el móvil
-3. Al clicar en el botón aprece un dialogo que nos dice que introduzca un email y pronto se pondrán en contacto con nosotros.
+3. Al clicar en el botón aparece un diálogo que nos dice que introduzca un email y pronto se pondrán en contacto con nosotros.
 
 ## Demo
 
